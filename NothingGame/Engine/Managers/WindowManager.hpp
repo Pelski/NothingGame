@@ -10,5 +10,41 @@
 #define WindowManager_hpp
 
 #include <stdio.h>
+#include <SFML/Graphics.hpp>
+
+#include "EventManager.hpp"
+
+#include "ResourcePath.hpp"
+
+using namespace std;
+using namespace sf;
+
+class WindowManager {
+public:
+    // Game states
+    enum GameState {
+        SPLASH_SCREEN,
+        MAIN_MENU,
+        SETTINGS_MENU,
+        CREDITS_MENU,
+        LOADING_SCREEN,
+        GAME_SCREEN,
+        EXIT_STATE
+    };
+    // Vars
+    RenderWindow renderWindow;
+    
+    // Methods
+    WindowManager();
+    void displayLoop();
+private:
+    // Vars
+    int SCREEN_W;
+    int SCREEN_H;
+    EventManager eventManager;
+    GameState gameState;
+    
+    // Methods
+};
 
 #endif /* WindowManager_hpp */

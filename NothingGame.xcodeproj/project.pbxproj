@@ -11,6 +11,7 @@
 		1AA0E18A1E620463006AC0FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0E1891E620463006AC0FB /* main.cpp */; };
 		1AA0E1931E620463006AC0FB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA0E1921E620463006AC0FB /* icon.png */; };
 		1AC8C9971E64390300E715EC /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8C9951E64390300E715EC /* WindowManager.cpp */; };
+		1ADD5C841E675A8100167939 /* EventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD5C821E675A8100167939 /* EventManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		1AA0E1921E620463006AC0FB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1AC8C9951E64390300E715EC /* WindowManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WindowManager.cpp; path = Engine/Managers/WindowManager.cpp; sourceTree = "<group>"; };
 		1AC8C9961E64390300E715EC /* WindowManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WindowManager.hpp; path = Engine/Managers/WindowManager.hpp; sourceTree = "<group>"; };
+		1ADD5C821E675A8100167939 /* EventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EventManager.cpp; path = Engine/Managers/EventManager.cpp; sourceTree = "<group>"; };
+		1ADD5C831E675A8100167939 /* EventManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EventManager.hpp; path = Engine/Managers/EventManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		1AC8C98D1E64379C00E715EC /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				1ADD5C881E676DE300167939 /* Scenes */,
 				1AC8C9941E64389C00E715EC /* Logic */,
 				1AC8C9931E64388800E715EC /* GameObjects */,
 				1AC8C9921E6437EF00E715EC /* Managers */,
@@ -103,6 +107,8 @@
 			children = (
 				1AC8C9951E64390300E715EC /* WindowManager.cpp */,
 				1AC8C9961E64390300E715EC /* WindowManager.hpp */,
+				1ADD5C821E675A8100167939 /* EventManager.cpp */,
+				1ADD5C831E675A8100167939 /* EventManager.hpp */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -119,6 +125,13 @@
 			children = (
 			);
 			name = Logic;
+			sourceTree = "<group>";
+		};
+		1ADD5C881E676DE300167939 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +221,7 @@
 			files = (
 				1AA0E18A1E620463006AC0FB /* main.cpp in Sources */,
 				1AA0E1871E620463006AC0FB /* ResourcePath.mm in Sources */,
+				1ADD5C841E675A8100167939 /* EventManager.cpp in Sources */,
 				1AC8C9971E64390300E715EC /* WindowManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
