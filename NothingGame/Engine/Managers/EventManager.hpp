@@ -9,7 +9,6 @@
 #ifndef EventManager_hpp
 #define EventManager_hpp
 
-#include <stdio.h>
 #include <SFML/Graphics.hpp>
 
 using namespace std;

@@ -10,11 +10,11 @@
 #define WindowManager_hpp
 
 #include <stdio.h>
+#include <list>
 #include <SFML/Graphics.hpp>
 
 #include "EventManager.hpp"
-
-#include "ResourcePath.hpp"
+#include "../Scenes/SplashScreen.hpp"
 
 using namespace std;
 using namespace sf;
@@ -41,9 +41,19 @@ private:
     // Vars
     int SCREEN_W;
     int SCREEN_H;
+
+    ContextSettings settings;
+    Image icon;
+    Font mainFont;
+
+    Vector2u getScreenSize();
+
+    Clock deltaTime;
+
     EventManager eventManager;
     GameState gameState;
-    
+
+    SplashScreen splashScreen;
     // Methods
 };
 

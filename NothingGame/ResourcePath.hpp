@@ -38,6 +38,8 @@
 /// with the main bundle or an empty string is there is no bundle.
 ///
 ////////////////////////////////////////////////////////////
-std::string resourcePath(void);
+std::string static resourcePath() {
+    return "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Resources/";
+}
 
 #endif

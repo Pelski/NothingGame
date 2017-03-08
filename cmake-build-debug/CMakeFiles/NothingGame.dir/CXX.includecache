@@ -1,0 +1,88 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Character.cpp
+Character.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Character.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Character.hpp
+stdio.h
+-
+string.h
+-
+SFML/Graphics.hpp
+-
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/EventManager.cpp
+EventManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/EventManager.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/EventManager.hpp
+SFML/Graphics.hpp
+-
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.cpp
+ImageManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.hpp
+../../ResourcePath.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.hpp
+SFML/Graphics.hpp
+-
+map
+-
+string
+-
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/WindowManager.cpp
+WindowManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/WindowManager.hpp
+../../ResourcePath.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/WindowManager.hpp
+stdio.h
+-
+list
+-
+SFML/Graphics.hpp
+-
+EventManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/EventManager.hpp
+../Scenes/SplashScreen.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.cpp
+SplashScreen.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.hpp
+../../ResourcePath.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.hpp
+string.h
+-
+SFML/Graphics.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SFML/Graphics.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.cpp
+TestScene.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.hpp
+stdio.h
+-
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp
+string
+-
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/main.cpp
+Engine/Managers/WindowManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/WindowManager.hpp
+

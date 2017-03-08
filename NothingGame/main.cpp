@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-#include "WindowManager.hpp"
+#include "Engine/Managers/WindowManager.hpp"
 
 int main(int, char const**)
 {

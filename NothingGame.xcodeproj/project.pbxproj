@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7EF6451E6DDF5900B33A63 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EF6431E6DDF5900B33A63 /* Character.cpp */; };
+		1A7EF6471E6DE0B900B33A63 /* human_regular_hair.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7EF6461E6DE0B900B33A63 /* human_regular_hair.png */; };
+		1A7EF64B1E6DE4CD00B33A63 /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EF6491E6DE4CD00B33A63 /* TestScene.cpp */; };
 		1AA0E1871E620463006AC0FB /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0E1861E620463006AC0FB /* ResourcePath.mm */; };
 		1AA0E18A1E620463006AC0FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0E1891E620463006AC0FB /* main.cpp */; };
 		1AA0E1931E620463006AC0FB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA0E1921E620463006AC0FB /* icon.png */; };
@@ -15,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7EF6431E6DDF5900B33A63 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Character.cpp; path = Engine/GameObjects/Character.cpp; sourceTree = "<group>"; };
+		1A7EF6441E6DDF5900B33A63 /* Character.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Character.hpp; path = Engine/GameObjects/Character.hpp; sourceTree = "<group>"; };
+		1A7EF6461E6DE0B900B33A63 /* human_regular_hair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = human_regular_hair.png; path = "../../../../Desktop/Micro Character Bases - Basics v1.0.1/PNG/Human/human_regular_hair.png"; sourceTree = "<group>"; };
+		1A7EF6491E6DE4CD00B33A63 /* TestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestScene.cpp; path = Engine/Scenes/TestScene.cpp; sourceTree = "<group>"; };
+		1A7EF64A1E6DE4CD00B33A63 /* TestScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TestScene.hpp; path = Engine/Scenes/TestScene.hpp; sourceTree = "<group>"; };
 		1AA0E1811E620463006AC0FB /* NothingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NothingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA0E1851E620463006AC0FB /* NothingGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NothingGame-Info.plist"; sourceTree = "<group>"; };
 		1AA0E1861E620463006AC0FB /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -38,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7EF6481E6DE0BE00B33A63 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				1A7EF6461E6DE0B900B33A63 /* human_regular_hair.png */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
 		1AA0E1771E620463006AC0FB = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +94,7 @@
 		1AA0E18B1E620463006AC0FB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1A7EF6481E6DE0BE00B33A63 /* Character */,
 				1AA0E1921E620463006AC0FB /* icon.png */,
 			);
 			name = Resources;
@@ -116,6 +133,8 @@
 		1AC8C9931E64388800E715EC /* GameObjects */ = {
 			isa = PBXGroup;
 			children = (
+				1A7EF6431E6DDF5900B33A63 /* Character.cpp */,
+				1A7EF6441E6DDF5900B33A63 /* Character.hpp */,
 			);
 			name = GameObjects;
 			sourceTree = "<group>";
@@ -130,6 +149,8 @@
 		1ADD5C881E676DE300167939 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1A7EF6491E6DE4CD00B33A63 /* TestScene.cpp */,
+				1A7EF64A1E6DE4CD00B33A63 /* TestScene.hpp */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -192,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7EF6471E6DE0B900B33A63 /* human_regular_hair.png in Resources */,
 				1AA0E1931E620463006AC0FB /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7EF64B1E6DE4CD00B33A63 /* TestScene.cpp in Sources */,
 				1AA0E18A1E620463006AC0FB /* main.cpp in Sources */,
 				1AA0E1871E620463006AC0FB /* ResourcePath.mm in Sources */,
 				1ADD5C841E675A8100167939 /* EventManager.cpp in Sources */,
+				1A7EF6451E6DDF5900B33A63 /* Character.cpp in Sources */,
 				1AC8C9971E64390300E715EC /* WindowManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
