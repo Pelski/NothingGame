@@ -15,6 +15,7 @@
 
 #include "EventManager.hpp"
 #include "../Scenes/SplashScreen.hpp"
+#include "../Scenes/TestScene.hpp"
 
 using namespace std;
 using namespace sf;
@@ -25,20 +26,19 @@ public:
     enum GameState {
         SPLASH_SCREEN,
         MAIN_MENU,
+        TEST_SCENE,
         SETTINGS_MENU,
         CREDITS_MENU,
         LOADING_SCREEN,
         GAME_SCREEN,
         EXIT_STATE
     };
-    // Vars
     RenderWindow renderWindow;
-    
-    // Methods
+    RenderTexture renderTexture;
+
     WindowManager();
     void displayLoop();
 private:
-    // Vars
     int SCREEN_W;
     int SCREEN_H;
 
@@ -54,7 +54,9 @@ private:
     GameState gameState;
 
     SplashScreen splashScreen;
-    // Methods
+    TestScene testScene;
+
+    bool boolFPSCounter;
 };
 
 #endif /* WindowManager_hpp */

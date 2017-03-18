@@ -13,15 +13,21 @@ using namespace sf;
 
 class SplashScreen {
 public:
-    bool create(RenderWindow &target);
+    SplashScreen();
+
+    bool create(RenderTarget *target);
     void update(float deltaTime);
-    void draw();
+    void draw(RenderTarget *target);
+
+    bool isInitialized();
+    bool isFinished();
+    Vector2f getLogoPosition();
 
 private:
+    bool initialized;
+    float animateStep;
     Sprite gameLogo;
     Texture gameLogoTexture;
-
-    RenderWindow* renderTarget;
 };
 
 
