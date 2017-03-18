@@ -30,3 +30,6 @@
 
 *.xcodeproj
 
+.idea
+cmake-build-debug
+NothingGame.xcodeproj
