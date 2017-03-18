@@ -30,7 +30,7 @@
 
 *.xcodeproj
 .idea
-.idea/*
+.idea/workspace.xml
 cmake-build-debug
 NothingGame.xcodeproj
 NothingGame/Engine/Types/
