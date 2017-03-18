@@ -63,9 +63,9 @@ void Character::addVector(Vector2f vector) {
 
 void Character::update(float deltaTime) {
     // Fixing X axis movement vector
-    if (movementVector.x < -1.0f)
+    if (movementVector.x < -5.0f)
         movementVector.x += 500.0f * deltaTime;
-    else if (movementVector.x > 1.0f)
+    else if (movementVector.x > 5.0f)
         movementVector.x -= 500.0f * deltaTime;
     else
         movementVector.x = 0.0f;

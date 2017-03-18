@@ -18,7 +18,6 @@ using namespace sf;
 
 class Character {
 public:
-    // Methods
     Vector2f getPosition();
     void setPosition(Vector2f);
 
@@ -36,7 +35,6 @@ public:
     void update(float deltaTime);
     void draw(RenderTarget *target);
 private:
-    // Vars
     string name;
     int experience;
     int life;
