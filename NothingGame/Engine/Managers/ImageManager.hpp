@@ -7,15 +7,20 @@
 
 #include <SFML/Graphics.hpp>
 #include <map>
-#include <string>
+#include <cstring>
+#include <memory>
+#include <cassert>
+#include <stdexcept>
+
 
 using namespace std;
 using namespace sf;
 
 class ImageManager {
 public:
-    void loadTexture(const string& textureName, const string &filename);
-    Texture& getTexture(const string& texture);
+    void loadTexture(const string& name, const string &filename);
+    Texture& getRef(const string& texture);
+
 private:
     map<string, Texture> textures;
 };

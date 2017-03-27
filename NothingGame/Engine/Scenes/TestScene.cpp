@@ -16,16 +16,14 @@ bool TestScene::isInitialized() {
     return initialized;
 }
 
-bool TestScene::create(RenderTarget *target) {
-    if (!gameLogoTexture.loadFromFile(resourcePath() + "Caution.png")) {
-        cout << "Can't load Caution.png file!" << endl;
-        return false;
-    }
+bool TestScene::create(RenderTarget *target, ImageManager *imageManager) {
+    this->imageManager = imageManager;
+    imageManager->loadTexture("logo", "Caution.png");
 
-    gameLogo.setTexture(gameLogoTexture);
+    gameLogo.setTexture(imageManager->getRef("logo"));
 
     Vector2u screenSize = target->getSize();
-    gameLogo.setPosition(screenSize.x / 2 - gameLogoTexture.getSize().x / 2, screenSize.y / 2 - gameLogoTexture.getSize().y / 2);
+    gameLogo.setPosition(screenSize.x / 2 - imageManager->getRef("logo").getSize().x / 2, screenSize.y / 2 - imageManager->getRef("logo").getSize().y / 2);
     gameLogo.setColor(Color::Color(255, 255, 255));
 
     character.create("Pelski", 0, 100, 100, 100, 100, Vector2f(150.0f, 300.0f), Vector2f(75.0f, 100.0f), "void");
@@ -45,10 +43,10 @@ void TestScene::update(float deltaTime) {
 
     if (Keyboard::isKeyPressed(Keyboard::Up) || Keyboard::isKeyPressed(Keyboard::W)) {
         character.jump();
-    }
-
-    if (Keyboard::isKeyPressed(Keyboard::Down) || Keyboard::isKeyPressed(Keyboard::S)) {
-        //character.addVector(Vector2f(0.0f, 0.5f));
+    } else {
+        if (character.getVerticalSpeed() == 0.0f && (Keyboard::isKeyPressed(Keyboard::Down) || Keyboard::isKeyPressed(Keyboard::S))) {
+            character.crouch();
+        }
     }
 
     character.update(deltaTime);

@@ -5,8 +5,9 @@
 #ifndef NOTHINGGAME_SPLASHSCREEN_H
 #define NOTHINGGAME_SPLASHSCREEN_H
 
-#include <string.h>
+#include <cstring>
 #include "SFML/Graphics.hpp"
+#include "../Managers/ImageManager.hpp"
 
 using namespace std;
 using namespace sf;
@@ -15,7 +16,7 @@ class SplashScreen {
 public:
     SplashScreen();
 
-    bool create(RenderTarget *target);
+    bool create(RenderTarget *target, ImageManager *imageManager);
     void update(float deltaTime);
     void draw(RenderTarget *target);
 
@@ -27,7 +28,8 @@ private:
     bool initialized;
     float animateStep;
     Sprite gameLogo;
-    Texture gameLogoTexture;
+
+    ImageManager *imageManager;
 };
 
 

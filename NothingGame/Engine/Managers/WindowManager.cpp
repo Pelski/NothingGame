@@ -69,7 +69,7 @@ void WindowManager::displayLoop() {
         switch (gameState) {
             case SPLASH_SCREEN:
                 if (!splashScreen.isInitialized()) {
-                    if (!splashScreen.create(&renderWindow)) {
+                    if (!splashScreen.create(&renderWindow, &imageManager)) {
                         return;
                     }
                 }
@@ -86,7 +86,7 @@ void WindowManager::displayLoop() {
 
             case TEST_SCENE:
                 if (!testScene.isInitialized()) {
-                    if (!testScene.create(&renderWindow)) {
+                    if (!testScene.create(&renderWindow, &imageManager)) {
                         return;
                     }
                     testScene.setGameLogoPosition(splashScreen.getLogoPosition());

@@ -43,6 +43,7 @@ void Character::create(
 
     this->speed = 20.0f;
     this->maxSpeed = 80.0f;
+    this->isCrouching = false;
 }
 
 Vector2f Character::getPosition() {
@@ -100,6 +101,14 @@ void Character::update(float deltaTime) {
     // Changing position of Character
     this->position.x += movementVector.x * deltaTime * 10.0f;
     this->position.y += movementVector.y * deltaTime * 10.0f;
+
+    if (this->isCrouching) {
+        this->position.y += 25.0f;
+        this->size.y = 75.0f;
+        this->isCrouching = false;
+    } else {
+        this->size.y = 100.0f;
+    }
 }
 
 void Character::moveLeft() {
@@ -114,6 +123,14 @@ void Character::jump() {
     if (movementVector.y == 0.0f) {
         movementVector.y -= 250.0f;
     }
+}
+
+void Character::crouch() {
+    this->isCrouching = true;
+}
+
+float Character::getVerticalSpeed() {
+    return movementVector.y;
 }
 
 void Character::draw(RenderTarget *target) {

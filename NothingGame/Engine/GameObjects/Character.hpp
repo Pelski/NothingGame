@@ -25,7 +25,9 @@ public:
     void jump();
     void moveLeft();
     void moveRight();
-    
+    void crouch();
+
+    float getVerticalSpeed();
     Vector2f getSize();
     void setSize(Vector2f);
     
@@ -48,6 +50,7 @@ private:
     Vector2f size;
     Vector2f movementVector;
     string characterTexture;
+    bool isCrouching;
 };
 
 #endif /* Character_hpp */

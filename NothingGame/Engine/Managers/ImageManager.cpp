@@ -5,15 +5,17 @@
 #include "ImageManager.hpp"
 #include "../../ResourcePath.hpp"
 
-void ImageManager::loadTexture(const string& textureName, const string& filename) {
-    Texture tmpTexture;
-    if (!tmpTexture.loadFromFile(resourcePath() + filename)) {
-        return;
+void ImageManager::loadTexture(const string& name, const string& filename) {
+    if (textures.find(name) == textures.end()) {
+        Texture tex;
+        tex.loadFromFile(resourcePath() + filename);
+
+        this->textures[name] = tex;
     }
 
-    this->textures[textureName] = tmpTexture;
+    return;
 }
 
-Texture& ImageManager::getTexture(const string& texture) {
+Texture& ImageManager::getRef(const string& texture) {
     return this->textures.at(texture);
 }

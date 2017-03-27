@@ -14,16 +14,13 @@ bool SplashScreen::isInitialized() {
     return initialized;
 }
 
-bool SplashScreen::create(RenderTarget *target) {
-    if (!gameLogoTexture.loadFromFile(resourcePath() + "Caution.png")) {
-        cout << "Can't load Caution.png file!" << endl;
-        return false;
-    }
-
-    gameLogo.setTexture(gameLogoTexture);
+bool SplashScreen::create(RenderTarget *target, ImageManager *imageManager) {
+    this->imageManager = imageManager;
+    imageManager->loadTexture("logo", "Caution.png");
+    gameLogo.setTexture(imageManager->getRef("logo"));
 
     Vector2u screenSize = target->getSize();
-    gameLogo.setPosition(screenSize.x / 2 - gameLogoTexture.getSize().x / 2, screenSize.y / 2 - gameLogoTexture.getSize().y / 2);
+    gameLogo.setPosition(screenSize.x / 2 - imageManager->getRef("logo").getSize().x / 2, screenSize.y / 2 - imageManager->getRef("logo").getSize().y / 2);
     animateStep = 0;
     gameLogo.setColor(Color::Color(255, 255, 255, animateStep));
 

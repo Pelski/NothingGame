@@ -16,6 +16,7 @@
 #include "EventManager.hpp"
 #include "../Scenes/SplashScreen.hpp"
 #include "../Scenes/TestScene.hpp"
+#include "ImageManager.hpp"
 
 using namespace std;
 using namespace sf;
@@ -52,6 +53,7 @@ private:
 
     EventManager eventManager;
     GameState gameState;
+    ImageManager imageManager;
 
     SplashScreen splashScreen;
     TestScene testScene;

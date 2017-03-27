@@ -10,10 +10,11 @@
 #define TestScene_hpp
 
 #include <iostream>
-#include <string.h>
+#include <cstring>
 #include "SFML/Graphics.hpp"
 #include "../../ResourcePath.hpp"
 #include "../GameObjects/Character.hpp"
+#include "../Managers/ImageManager.hpp"
 
 using namespace std;
 using namespace sf;
@@ -21,7 +22,7 @@ using namespace sf;
 class TestScene {
 public:
     TestScene();
-    bool create(RenderTarget *target);
+    bool create(RenderTarget *target, ImageManager *imageManager);
     void update(float deltaTime);
     void draw(RenderTarget *target);
 
@@ -32,7 +33,7 @@ public:
 private:
     bool initialized;
     Sprite gameLogo;
-    Texture gameLogoTexture;
+    ImageManager *imageManager;
 
     Character character;
 };
