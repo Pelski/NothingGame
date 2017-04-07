@@ -3,6 +3,10 @@
 
 CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Character.cpp.o: ../NothingGame/Engine/GameObjects/Character.cpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Character.cpp.o: ../NothingGame/Engine/GameObjects/Character.hpp
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Character.cpp.o: ../NothingGame/Engine/Managers/ImageManager.hpp
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o: ../NothingGame/Engine/GameObjects/Floor.cpp
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o: ../NothingGame/Engine/GameObjects/Floor.hpp
 
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/EventManager.cpp.o: ../NothingGame/Engine/Managers/EventManager.cpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/EventManager.cpp.o: ../NothingGame/Engine/Managers/EventManager.hpp
@@ -11,21 +15,35 @@ CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o: ../No
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o: ../NothingGame/Engine/Managers/ImageManager.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o: ../NothingGame/ResourcePath.hpp
 
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/Engine/GameObjects/Character.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/Engine/Managers/EventManager.hpp
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/Engine/Managers/ImageManager.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/Engine/Managers/WindowManager.cpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/Engine/Managers/WindowManager.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/Engine/Scenes/SplashScreen.hpp
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/Engine/Scenes/TestScene.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/WindowManager.cpp.o: ../NothingGame/ResourcePath.hpp
 
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o: ../NothingGame/Engine/Managers/ImageManager.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o: ../NothingGame/Engine/Scenes/SplashScreen.cpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o: ../NothingGame/Engine/Scenes/SplashScreen.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o: ../NothingGame/ResourcePath.hpp
 
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.o: ../NothingGame/Engine/GameObjects/Character.hpp
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.o: ../NothingGame/Engine/Managers/ImageManager.hpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.o: ../NothingGame/Engine/Scenes/TestScene.cpp
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.o: ../NothingGame/Engine/Scenes/TestScene.hpp
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.o: ../NothingGame/ResourcePath.hpp
 
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o: ../NothingGame/Engine/Types/MapElement.cpp
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o: ../NothingGame/Engine/Types/MapElement.h
+
+CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/Engine/GameObjects/Character.hpp
 CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/Engine/Managers/EventManager.hpp
+CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/Engine/Managers/ImageManager.hpp
 CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/Engine/Managers/WindowManager.hpp
 CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/Engine/Scenes/SplashScreen.hpp
+CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/Engine/Scenes/TestScene.hpp
+CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/ResourcePath.hpp
 CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o: ../NothingGame/main.cpp
 

@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <SFML/Graphics.hpp>
+#include "../Managers/ImageManager.hpp"
 
 using namespace std;
 using namespace sf;
@@ -33,7 +34,7 @@ public:
     
     string getTexture();
 
-    void create(string, int, int, int, int, int, Vector2f, Vector2f, string);
+    void create(string, int, int, int, int, int, Vector2f, Vector2f, string, ImageManager *imageManager);
     void update(float deltaTime);
     void draw(RenderTarget *target);
 private:
@@ -50,7 +51,11 @@ private:
     Vector2f size;
     Vector2f movementVector;
     string characterTexture;
+    int characterSpriteStage;
+    Sprite characterSprite;
     bool isCrouching;
+
+    ImageManager *imageManager;
 };
 
 #endif /* Character_hpp */

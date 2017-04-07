@@ -11,8 +11,8 @@
 #include "../../ResourcePath.hpp"
 
 WindowManager::WindowManager() {
-    SCREEN_W = 1920;
-    SCREEN_H = 1080;
+    SCREEN_W = 1280;
+    SCREEN_H = 720;
 
     settings.antialiasingLevel = 0;
     settings.sRgbCapable = false;
@@ -128,7 +128,15 @@ void WindowManager::displayLoop() {
         Text text;
         text.setFont(mainFont);
         text.setPosition(10, 10);
-        text.setFillColor(Color::Red);
+        if (fps >= 50.0f) {
+            text.setFillColor(Color::Green);
+        } else if (fps >= 40.0f) {
+            text.setFillColor(Color::Yellow);
+        } else if (fps >= 30) {
+            text.setFillColor(Color::Color(212, 190, 144));
+        } else {
+            text.setFillColor(Color::Red);
+        }
         text.setString(str);
 
         //renderTexture.display();

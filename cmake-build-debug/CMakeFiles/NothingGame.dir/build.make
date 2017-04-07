@@ -225,6 +225,102 @@ CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o.provid
 CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o.provides.build: CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o
 
 
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o: CMakeFiles/NothingGame.dir/flags.make
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o: ../NothingGame/Engine/GameObjects/Floor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/pelski/Documents/Projekty XCode/NothingGame/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o -c "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.cpp"
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.cpp" > CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.i
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.cpp" -o CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.s
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.requires:
+
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.requires
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.provides: CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.provides.build
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.provides
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.provides.build: CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o
+
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o: CMakeFiles/NothingGame.dir/flags.make
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o: ../NothingGame/Engine/Types/MapElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/pelski/Documents/Projekty XCode/NothingGame/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o -c "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.cpp"
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.cpp" > CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.i
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.cpp" -o CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.s
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.requires:
+
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.requires
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.provides: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.requires
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.provides.build
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.provides
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.provides.build: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o
+
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o: CMakeFiles/NothingGame.dir/flags.make
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o: ../NothingGame/Engine/Types/WorldMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/pelski/Documents/Projekty XCode/NothingGame/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o -c "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/WorldMap.cpp"
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/WorldMap.cpp" > CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.i
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/WorldMap.cpp" -o CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.s
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.requires:
+
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.requires
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.provides: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.provides.build
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.provides
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.provides.build: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o
+
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o: CMakeFiles/NothingGame.dir/flags.make
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o: ../NothingGame/Engine/Types/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/pelski/Documents/Projekty XCode/NothingGame/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o -c "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/Block.cpp"
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/Block.cpp" > CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.i
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/Block.cpp" -o CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.s
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.requires:
+
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.requires
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.provides: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.requires
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.provides.build
+.PHONY : CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.provides
+
+CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.provides.build: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o
+
+
 # Object files for target NothingGame
 NothingGame_OBJECTS = \
 "CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/EventManager.cpp.o" \
@@ -233,7 +329,11 @@ NothingGame_OBJECTS = \
 "CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.o" \
 "CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o" \
 "CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o" \
-"CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o"
+"CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o" \
+"CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o" \
+"CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o" \
+"CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o" \
+"CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o"
 
 # External object files for target NothingGame
 NothingGame_EXTERNAL_OBJECTS =
@@ -245,9 +345,13 @@ NothingGame: CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.
 NothingGame: CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o
 NothingGame: CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o
 NothingGame: CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o
+NothingGame: CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o
+NothingGame: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o
+NothingGame: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o
+NothingGame: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o
 NothingGame: CMakeFiles/NothingGame.dir/build.make
 NothingGame: CMakeFiles/NothingGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/pelski/Documents/Projekty XCode/NothingGame/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable NothingGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/pelski/Documents/Projekty XCode/NothingGame/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable NothingGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NothingGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -262,6 +366,10 @@ CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/Engi
 CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o.requires
 CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o.requires
 CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o.requires
+CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o.requires
+CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o.requires
+CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o.requires
+CMakeFiles/NothingGame.dir/requires: CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o.requires
 
 .PHONY : CMakeFiles/NothingGame.dir/requires
 

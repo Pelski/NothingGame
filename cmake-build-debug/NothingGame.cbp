@@ -90,6 +90,12 @@
 		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Character.hpp">
 			<Option target="NothingGame"/>
 		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.cpp">
+			<Option target="NothingGame"/>
+		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.hpp">
+			<Option target="NothingGame"/>
+		</Unit>
 		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/EventManager.cpp">
 			<Option target="NothingGame"/>
 		</Unit>
@@ -118,6 +124,24 @@
 			<Option target="NothingGame"/>
 		</Unit>
 		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.hpp">
+			<Option target="NothingGame"/>
+		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/Block.cpp">
+			<Option target="NothingGame"/>
+		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/Block.h">
+			<Option target="NothingGame"/>
+		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.cpp">
+			<Option target="NothingGame"/>
+		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.h">
+			<Option target="NothingGame"/>
+		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/WorldMap.cpp">
+			<Option target="NothingGame"/>
+		</Unit>
+		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/WorldMap.h">
 			<Option target="NothingGame"/>
 		</Unit>
 		<Unit filename="/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp">

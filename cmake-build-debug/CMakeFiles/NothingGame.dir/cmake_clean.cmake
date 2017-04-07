@@ -6,6 +6,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/SplashScreen.cpp.o"
   "CMakeFiles/NothingGame.dir/NothingGame/main.cpp.o"
   "CMakeFiles/NothingGame.dir/NothingGame/Engine/Managers/ImageManager.cpp.o"
+  "CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o"
+  "CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o"
+  "CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o"
+  "CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o"
   "NothingGame.pdb"
   "NothingGame"
 )

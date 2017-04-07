@@ -26,7 +26,7 @@ bool TestScene::create(RenderTarget *target, ImageManager *imageManager) {
     gameLogo.setPosition(screenSize.x / 2 - imageManager->getRef("logo").getSize().x / 2, screenSize.y / 2 - imageManager->getRef("logo").getSize().y / 2);
     gameLogo.setColor(Color::Color(255, 255, 255));
 
-    character.create("Pelski", 0, 100, 100, 100, 100, Vector2f(150.0f, 300.0f), Vector2f(75.0f, 100.0f), "void");
+    character.create("Pelski", 0, 100, 100, 100, 100, Vector2f(150.0f, 300.0f), Vector2f(13.0f, 39.0f), "Character", imageManager);
 
     initialized = true;
     return true;

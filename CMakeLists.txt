@@ -20,7 +20,7 @@ set(SOURCE_FILES
         NothingGame/Resources/Caution.png
 
         NothingGame/main.cpp
-        NothingGame/ResourcePath.hpp NothingGame/Engine/Managers/ImageManager.cpp NothingGame/Engine/Managers/ImageManager.hpp NothingGame/Engine/GameObjects/Floor.cpp NothingGame/Engine/GameObjects/Floor.hpp)
+        NothingGame/ResourcePath.hpp NothingGame/Engine/Managers/ImageManager.cpp NothingGame/Engine/Managers/ImageManager.hpp NothingGame/Engine/GameObjects/Floor.cpp NothingGame/Engine/GameObjects/Floor.hpp NothingGame/Engine/Types/MapElement.cpp NothingGame/Engine/Types/MapElement.h NothingGame/Engine/Types/WorldMap.cpp NothingGame/Engine/Types/WorldMap.h NothingGame/Engine/Types/Block.cpp NothingGame/Engine/Types/Block.h)
 
 add_executable(NothingGame ${SOURCE_FILES})
 

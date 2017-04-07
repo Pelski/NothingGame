@@ -150,6 +150,33 @@ NothingGame/Engine/GameObjects/Character.cpp.s:
 	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Character.cpp.s
 .PHONY : NothingGame/Engine/GameObjects/Character.cpp.s
 
+NothingGame/Engine/GameObjects/Floor.o: NothingGame/Engine/GameObjects/Floor.cpp.o
+
+.PHONY : NothingGame/Engine/GameObjects/Floor.o
+
+# target to build an object file
+NothingGame/Engine/GameObjects/Floor.cpp.o:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.o
+.PHONY : NothingGame/Engine/GameObjects/Floor.cpp.o
+
+NothingGame/Engine/GameObjects/Floor.i: NothingGame/Engine/GameObjects/Floor.cpp.i
+
+.PHONY : NothingGame/Engine/GameObjects/Floor.i
+
+# target to preprocess a source file
+NothingGame/Engine/GameObjects/Floor.cpp.i:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.i
+.PHONY : NothingGame/Engine/GameObjects/Floor.cpp.i
+
+NothingGame/Engine/GameObjects/Floor.s: NothingGame/Engine/GameObjects/Floor.cpp.s
+
+.PHONY : NothingGame/Engine/GameObjects/Floor.s
+
+# target to generate assembly for a file
+NothingGame/Engine/GameObjects/Floor.cpp.s:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/GameObjects/Floor.cpp.s
+.PHONY : NothingGame/Engine/GameObjects/Floor.cpp.s
+
 NothingGame/Engine/Managers/EventManager.o: NothingGame/Engine/Managers/EventManager.cpp.o
 
 .PHONY : NothingGame/Engine/Managers/EventManager.o
@@ -285,6 +312,87 @@ NothingGame/Engine/Scenes/TestScene.cpp.s:
 	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Scenes/TestScene.cpp.s
 .PHONY : NothingGame/Engine/Scenes/TestScene.cpp.s
 
+NothingGame/Engine/Types/Block.o: NothingGame/Engine/Types/Block.cpp.o
+
+.PHONY : NothingGame/Engine/Types/Block.o
+
+# target to build an object file
+NothingGame/Engine/Types/Block.cpp.o:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.o
+.PHONY : NothingGame/Engine/Types/Block.cpp.o
+
+NothingGame/Engine/Types/Block.i: NothingGame/Engine/Types/Block.cpp.i
+
+.PHONY : NothingGame/Engine/Types/Block.i
+
+# target to preprocess a source file
+NothingGame/Engine/Types/Block.cpp.i:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.i
+.PHONY : NothingGame/Engine/Types/Block.cpp.i
+
+NothingGame/Engine/Types/Block.s: NothingGame/Engine/Types/Block.cpp.s
+
+.PHONY : NothingGame/Engine/Types/Block.s
+
+# target to generate assembly for a file
+NothingGame/Engine/Types/Block.cpp.s:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/Block.cpp.s
+.PHONY : NothingGame/Engine/Types/Block.cpp.s
+
+NothingGame/Engine/Types/MapElement.o: NothingGame/Engine/Types/MapElement.cpp.o
+
+.PHONY : NothingGame/Engine/Types/MapElement.o
+
+# target to build an object file
+NothingGame/Engine/Types/MapElement.cpp.o:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.o
+.PHONY : NothingGame/Engine/Types/MapElement.cpp.o
+
+NothingGame/Engine/Types/MapElement.i: NothingGame/Engine/Types/MapElement.cpp.i
+
+.PHONY : NothingGame/Engine/Types/MapElement.i
+
+# target to preprocess a source file
+NothingGame/Engine/Types/MapElement.cpp.i:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.i
+.PHONY : NothingGame/Engine/Types/MapElement.cpp.i
+
+NothingGame/Engine/Types/MapElement.s: NothingGame/Engine/Types/MapElement.cpp.s
+
+.PHONY : NothingGame/Engine/Types/MapElement.s
+
+# target to generate assembly for a file
+NothingGame/Engine/Types/MapElement.cpp.s:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/MapElement.cpp.s
+.PHONY : NothingGame/Engine/Types/MapElement.cpp.s
+
+NothingGame/Engine/Types/WorldMap.o: NothingGame/Engine/Types/WorldMap.cpp.o
+
+.PHONY : NothingGame/Engine/Types/WorldMap.o
+
+# target to build an object file
+NothingGame/Engine/Types/WorldMap.cpp.o:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.o
+.PHONY : NothingGame/Engine/Types/WorldMap.cpp.o
+
+NothingGame/Engine/Types/WorldMap.i: NothingGame/Engine/Types/WorldMap.cpp.i
+
+.PHONY : NothingGame/Engine/Types/WorldMap.i
+
+# target to preprocess a source file
+NothingGame/Engine/Types/WorldMap.cpp.i:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.i
+.PHONY : NothingGame/Engine/Types/WorldMap.cpp.i
+
+NothingGame/Engine/Types/WorldMap.s: NothingGame/Engine/Types/WorldMap.cpp.s
+
+.PHONY : NothingGame/Engine/Types/WorldMap.s
+
+# target to generate assembly for a file
+NothingGame/Engine/Types/WorldMap.cpp.s:
+	$(MAKE) -f CMakeFiles/NothingGame.dir/build.make CMakeFiles/NothingGame.dir/NothingGame/Engine/Types/WorldMap.cpp.s
+.PHONY : NothingGame/Engine/Types/WorldMap.cpp.s
+
 NothingGame/main.o: NothingGame/main.cpp.o
 
 .PHONY : NothingGame/main.o
@@ -324,6 +432,9 @@ help:
 	@echo "... NothingGame/Engine/GameObjects/Character.o"
 	@echo "... NothingGame/Engine/GameObjects/Character.i"
 	@echo "... NothingGame/Engine/GameObjects/Character.s"
+	@echo "... NothingGame/Engine/GameObjects/Floor.o"
+	@echo "... NothingGame/Engine/GameObjects/Floor.i"
+	@echo "... NothingGame/Engine/GameObjects/Floor.s"
 	@echo "... NothingGame/Engine/Managers/EventManager.o"
 	@echo "... NothingGame/Engine/Managers/EventManager.i"
 	@echo "... NothingGame/Engine/Managers/EventManager.s"
@@ -339,6 +450,15 @@ help:
 	@echo "... NothingGame/Engine/Scenes/TestScene.o"
 	@echo "... NothingGame/Engine/Scenes/TestScene.i"
 	@echo "... NothingGame/Engine/Scenes/TestScene.s"
+	@echo "... NothingGame/Engine/Types/Block.o"
+	@echo "... NothingGame/Engine/Types/Block.i"
+	@echo "... NothingGame/Engine/Types/Block.s"
+	@echo "... NothingGame/Engine/Types/MapElement.o"
+	@echo "... NothingGame/Engine/Types/MapElement.i"
+	@echo "... NothingGame/Engine/Types/MapElement.s"
+	@echo "... NothingGame/Engine/Types/WorldMap.o"
+	@echo "... NothingGame/Engine/Types/WorldMap.i"
+	@echo "... NothingGame/Engine/Types/WorldMap.s"
 	@echo "... NothingGame/main.o"
 	@echo "... NothingGame/main.i"
 	@echo "... NothingGame/main.s"

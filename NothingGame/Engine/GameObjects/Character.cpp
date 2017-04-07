@@ -19,6 +19,7 @@
  * @param position Position of character
  * @param size Size of collision box
  * @param characterTexture Character texture name
+ * @param imageManager Textures container pointer
  */
 void Character::create(
         string name,
@@ -29,7 +30,8 @@ void Character::create(
         int lifeEnergy,
         Vector2f position,
         Vector2f size,
-        string characterTexture) {
+        string characterTexture,
+        ImageManager *imageManager) {
     this->name = name;
     this->experience = experience;
     this->life = life;
@@ -40,10 +42,19 @@ void Character::create(
     this->characterTexture = characterTexture;
     this->size = size;
     this->movementVector = Vector2f(0.0f, 0.0f);
+    this->imageManager = imageManager;
 
     this->speed = 20.0f;
     this->maxSpeed = 80.0f;
     this->isCrouching = false;
+    this->characterSpriteStage = 0;
+    this->characterSprite.setPosition(this->position);
+
+    imageManager->loadTexture(this->characterTexture, "Character.png");
+    imageManager->getRef(this->characterTexture).setSmooth(false);
+    imageManager->getRef(this->characterTexture).setRepeated(false);
+
+    this->characterSprite.setScale(Vector2f(2.5f, 2.5f));
 }
 
 Vector2f Character::getPosition() {
@@ -82,8 +93,8 @@ void Character::update(float deltaTime) {
         movementVector.y += 750.0f * deltaTime;
 
     // Temp!
-    if (this->position.y >= 970.0f && this->movementVector.y >= 0.0f) {
-        this->position.y = 970.0f;
+    if (this->position.y >= 610.0f && this->movementVector.y >= 0.0f) {
+        this->position.y = 610.0f;
         movementVector.y = 0.0f;
     }
 
@@ -102,21 +113,19 @@ void Character::update(float deltaTime) {
     this->position.x += movementVector.x * deltaTime * 10.0f;
     this->position.y += movementVector.y * deltaTime * 10.0f;
 
-    if (this->isCrouching) {
-        this->position.y += 25.0f;
-        this->size.y = 75.0f;
-        this->isCrouching = false;
-    } else {
-        this->size.y = 100.0f;
-    }
+    this->characterSprite.setTexture(imageManager->getRef(this->characterTexture));
+    this->characterSprite.setTextureRect(IntRect(13 * this->characterSpriteStage, 0, 13, 39));
+    this->characterSprite.setPosition(this->position);
 }
 
 void Character::moveLeft() {
     movementVector.x -= speed;
+    this->characterSpriteStage = 1;
 }
 
 void Character::moveRight() {
     movementVector.x += speed;
+    this->characterSpriteStage = 0;
 }
 
 void Character::jump() {
@@ -134,9 +143,5 @@ float Character::getVerticalSpeed() {
 }
 
 void Character::draw(RenderTarget *target) {
-    RectangleShape rectangleShape(this->size);
-    rectangleShape.setFillColor(Color::Red);
-    rectangleShape.setPosition(this->position);
-
-    target->draw(rectangleShape);
+    target->draw(this->characterSprite);
 }

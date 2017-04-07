@@ -6,11 +6,11 @@
 #define NOTHINGGAME_IMAGEMANAGER_H
 
 #include <SFML/Graphics.hpp>
-#include <map>
 #include <cstring>
 #include <memory>
 #include <cassert>
 #include <stdexcept>
+#include <unordered_map>
 
 
 using namespace std;
@@ -22,7 +22,7 @@ public:
     Texture& getRef(const string& texture);
 
 private:
-    map<string, Texture> textures;
+    unordered_map<string, Texture> textures;
 };
 
 

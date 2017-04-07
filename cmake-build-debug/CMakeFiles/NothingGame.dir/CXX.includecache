@@ -17,6 +17,20 @@ string.h
 -
 SFML/Graphics.hpp
 -
+../Managers/ImageManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.cpp
+Floor.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Floor.hpp
+stdio.h
+-
+string.h
+-
+SFML/Graphics.hpp
+-
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/EventManager.cpp
 EventManager.hpp
@@ -35,12 +49,20 @@ ImageManager.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.hpp
 SFML/Graphics.hpp
 -
-map
+cstring
 -
-string
+memory
+-
+cassert
+-
+stdexcept
+-
+unordered_map
 -
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/WindowManager.cpp
+iostream
+-
 WindowManager.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/WindowManager.hpp
 ../../ResourcePath.hpp
@@ -57,29 +79,55 @@ EventManager.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/EventManager.hpp
 ../Scenes/SplashScreen.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.hpp
+../Scenes/TestScene.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.hpp
+ImageManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.hpp
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.cpp
+iostream
+-
 SplashScreen.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.hpp
 ../../ResourcePath.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SplashScreen.hpp
-string.h
+cstring
 -
 SFML/Graphics.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SFML/Graphics.hpp
+../Managers/ImageManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.hpp
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.cpp
 TestScene.hpp
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.hpp
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/TestScene.hpp
-stdio.h
+iostream
+-
+cstring
+-
+SFML/Graphics.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Scenes/SFML/Graphics.hpp
+../../ResourcePath.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp
+../GameObjects/Character.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/GameObjects/Character.hpp
+../Managers/ImageManager.hpp
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Managers/ImageManager.hpp
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.cpp
+MapElement.h
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.h
+
+/Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/Engine/Types/MapElement.h
+SFML/System.hpp
 -
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/ResourcePath.hpp
-string
+cstring
 -
 
 /Users/pelski/Documents/Projekty XCode/NothingGame/NothingGame/main.cpp
